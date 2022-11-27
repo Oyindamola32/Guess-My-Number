@@ -31,7 +31,7 @@ document.querySelector('.check').addEventListener('click', function () {
     //when Player Wins
   } else if (guess === secretNumber) {
     // document.querySelector('.message').textContent = '🎉 Correct Number';
-    displayMessage('🎉 Correct Number');
+    displayMessage('🎉 great Number');
 
     document.querySelector('.number').textContent = secretNumber;
 
@@ -53,7 +53,7 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.score').textContent = score;
     } else {
       //document.querySelector('.message').textContent = '💥 You lost the game!';
-      displayMessage('💥 You win the game!');
+      displayMessage('💥 You lost the game!');
       document.querySelector('.score').textContent = 0;
     }
   }
