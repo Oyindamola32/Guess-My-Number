@@ -53,7 +53,7 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.score').textContent = score;
     } else {
       //document.querySelector('.message').textContent = '💥 You lost the game!';
-      displayMessage('💥 You lost the game!');
+      displayMessage('💥 You win the game!');
       document.querySelector('.score').textContent = 0;
     }
   }
